@@ -1,0 +1,22 @@
+{
+  "name": "spritesheet-frame-finder",
+  "version": "0.0.1",
+  "description": "Very simple utility to return the positions of animation frames within a spritesheet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/jshint/bin/jshint index.js **/*.js && node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drhayes/spritesheet-frame-finder.git"
+  },
+  "author": "David Hayes <drhayes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drhayes/spritesheet-frame-finder/issues"
+  },
+  "devDependencies": {
+    "jshint": "~2.3.0",
+    "mocha": "~1.16.1"
+  }
+}
